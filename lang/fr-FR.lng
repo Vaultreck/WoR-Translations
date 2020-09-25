@@ -3,11 +3,11 @@ Name=Français (French)
 IsComplete=0
 
 [UpdateNotifyWindow]
-WindowTitle=Update
-NewVersionAvailableLabel=New version available
-NewVersionAvailableBox={appname} {0} is available! Would you like to download it now?
-DownloadBtn=Download
-CloseBtn=Close
+WindowTitle=Mettre à jour
+NewVersionAvailableLabel=Nouvelle version disponible
+NewVersionAvailableBox={appname} {0} est disponible! Souhaitez-vous le télécharger maintenant?
+DownloadBtn=Télécharger
+CloseBtn=Fermer
 
 [AboutWindow]
 WindowTitle=A propos
@@ -18,7 +18,7 @@ LicensesPage=Licences
 
 [LoggerWindow]
 WindowTitle=Logs
-CopyToClipboardBtn=Copy
+CopyToClipboardBtn=Copie
 
 [LicenseAgreementWindow]
 WindowTitle=Contrat de licence
@@ -26,32 +26,32 @@ AcceptBtn=Accepter
 DeclineBtn=Refuser
 
 [General]
-MessageBox.CustomPackageWarn=Choosing an outdated or incompatible package may cause installation problems!{n}{n}It is recommended that you use the latest version available on the server instead.{n}{n}Continue anyway?
-MessageBox.SelectedPackageInvalid.Heading=The selected package is invalid or incompatible with your device.
-MessageBox.SelectedPackageInvalid.Message=Please select a package built for {0}.
+MessageBox.CustomPackageWarn=Le choix d'un package obsolète ou incompatible peut entraîner des problèmes d'installation! {N} {n} Il est recommandé d'utiliser la dernière version disponible sur le serveur à la place. {N} {n} Continuer quand même?
+MessageBox.SelectedPackageInvalid.Heading=Le package sélectionné est invalide ou incompatible avec votre appareil.
+MessageBox.SelectedPackageInvalid.Message=Veuillez sélectionner un package conçu pour {0}.
 Message.ExtractingPackageToTemp=Extraire l'archive dans le dossier temporaire...
 Message.DownloadingReqFiles=Téléchargement des fichiers requis...
 Label.StorageDrive=Storage drive
-Label.DeviceType=Device type
-FilePathTextPlaceholder=Click on the "{0}" button or drag and drop the file here.
-ServerPackageInfoLabel=This is the recommended option. It can be used offline too, as long as the package has been previously downloaded.
+Label.DeviceType=Type d'appareil
+FilePathTextPlaceholder=Cliquez sur le bouton "{0}" ou faites glisser et déposez le fichier ici.
+ServerPackageInfoLabel=C'est l'option recommandée. Il peut également être utilisé hors ligne, tant que le package a été précédemment téléchargé.
 
 [MessageBox]
 Button.OK=OK
-Button.Cancel=Cancel
-Button.Abort=Abort
-Button.Retry=Retry
-Button.Ignore=Ignore
-Button.Yes=Yes
-Button.No=No
-CheckBox.DoNotShowAgain=Don't show this again
+Button.Cancel=Retour
+Button.Abort=Annuler
+Button.Retry=Réessayer
+Button.Ignore=Ignorer
+Button.Yes=Oui
+Button.No=Non
+CheckBox.DoNotShowAgain=Ne plus montrer ça
 
 [MessageBox.Common]
-Heading.SomethingWentWrong=Something went wrong...
-Heading.Warning=Warning!
+Heading.SomethingWentWrong=Une erreur s'est produite ...
+Heading.Warning=Avertissement!
 
 [MainWindow]
-SendFeedbackBtn=Send feedback
+SendFeedbackBtn=Envoyez des commentaires
 NextPageBtn=Suivant
 BackPageBtn=Retour
 NextPageBtn.Install=Installation
@@ -62,57 +62,57 @@ MessageBox.TaskOngoing.Message=Une opération est actuellement en cours.
 [WelcomePage]
 PageTitle=Bienvenue
 WelcomeLabel=Bienvenue sur {appname}!
-WelcomeMsgTextBox=This wizard will help you easily install the full desktop version of Windows 10 on your Raspberry Pi computer.{n}{n}Click on the {0} button to continue.
+WelcomeMsgTextBox=Cet assistant vous aidera à installer facilement la version de bureau complète de Windows 10 sur votre ordinateur Raspberry Pi. {N} {n} Cliquez sur le bouton {0} pour continuer.
 SelectLangLabel=Sélectionner la langue:
 
 [SelectDevicePage]
 PageTitle=Choix du disque
 SelectDeviceLabel=Sélectionner le disque
-DisksListCombo.TextEmptyList=No drives have been found. Click on the {0} button to reload the list.
-DisksListCombo.TextNoItemSelected=Click here to select a drive from the list.
-StorageDriveWarningLabel=Warning! Selecting the wrong drive may lead to unwanted data loss.
-Device.ExperimentalSupport=Experimental
-Device.SupportedModels=Supported models: {0}
+DisksListCombo.TextEmptyList=Aucun lecteur n'a été trouvé. Cliquez sur le bouton {0} pour recharger la liste.
+DisksListCombo.TextNoItemSelected=Cliquez ici pour sélectionner un lecteur dans la liste.
+StorageDriveWarningLabel=Avertissement! La sélection du mauvais lecteur peut entraîner une perte de données indésirable.
+Device.ExperimentalSupport=Expérimental
+Device.SupportedModels=Modèles pris en charge: {0}
 MessageBox.DiskAtLeast=La carte doit posséder au moins {0} Go d'espace disponible !
 MessageBox.DiskCompressedInstall.Heading=La carte dispose de suffisamment d'espace pour une installation compressée.
-MessageBox.DiskCompressedInstall.Message=System performance may be slightly reduced due to compression.
+MessageBox.DiskCompressedInstall.Message=Les performances du système peuvent être légèrement réduites en raison de la compression.
 Message.LoadingDisks=Attente disque...
-MessageBox.NewBootloaderRequiredWarn=If you want to boot your {0} from an USB drive or use the GPT partitioning scheme, the bootloader must be updated to the latest version.{n}{n}Please visit the following link for more details: {1}
+MessageBox.NewBootloaderRequiredWarn=Si vous souhaitez démarrer votre {0} à partir d'une clé USB ou utiliser le schéma de partitionnement GPT, le chargeur de démarrage doit être mis à jour avec la dernière version. {N} {n} Veuillez consulter le lien suivant pour plus de détails: {1}
 
 [SelectImagePage]
 PageTitle=Choix de l'image
 SelectImageLabel=Sélectionner l'image de Windows ARM
-ImageFileLabel=Image file
-WindowsEditionLabel=Edition Windows
-WorkingBuildsTextBox.MinBuild=Your device supports Windows 10 {0} build {1} or newer.
-WorkingBuildsTextBox.AllBuilds=Your device supports all the available builds of Windows 10 {0}.
-WorkingBuildsTextBox.GetImage=If you don't have an image yet, you can find details on how to download one on the project website.
-SelectImageIndexCombo.TextEmptyList=Please select an image first.
+ImageFileLabel=Fichier d'image
+WindowsEditionLabel=Édition Windows
+WorkingBuildsTextBox.MinBuild=Votre appareil prend en charge Windows 10 {0} build {1} ou une version plus récente.
+WorkingBuildsTextBox.AllBuilds=Votre appareil prend en charge toutes les versions disponibles de Windows 10 {0}.
+WorkingBuildsTextBox.GetImage=Si vous n'avez pas encore d'image, vous pouvez trouver des détails sur la façon d'en télécharger une sur le site Web du projet.
+SelectImageIndexCombo.TextEmptyList=Veuillez d'abord sélectionner une image.
 MessageBox.SelectedImageInvalid=Le fichier sélectionné n'est pas une image Windows valide !
 MessageBox.SelectedImageUnsupported=Le fichier sélectionné n'est pas supporté !
-MessageBox.SelectedImageErrorInfo.AllBuilds=Please select a compatible Windows 10 {0} image.
-MessageBox.SelectedImageErrorInfo.MinBuild=Please select a compatible Windows 10 {0} build {1} or newer image.
-MessageBox.NotEnoughSpace.Heading=There is not enough space on the disk to install this image!
-MessageBox.NotEnoughSpace.Message=Please choose a larger storage device or a compact image.
+MessageBox.SelectedImageErrorInfo.AllBuilds=Veuillez sélectionner une image Windows 10 {0} compatible.
+MessageBox.SelectedImageErrorInfo.MinBuild=Veuillez sélectionner un Windows 10 {0} build {1} compatible ou une image plus récente.
+MessageBox.NotEnoughSpace.Heading=Il n'y a pas assez d'espace sur le disque pour installer cette image!
+MessageBox.NotEnoughSpace.Message=Veuillez choisir un périphérique de stockage plus grand ou une image compacte.
 Message.MountingISO=Montage de l'image ISO...
 Message.UnmountingISO=Démontage de l'image ISO...
-Message.VerifyingImage=Verifying the image...
+Message.VerifyingImage=Vérification de l'image ...
 
 [SelectDriversPage]
 PageTitle=Choix drivers
 SelectDriversLabel=Sélectionner les drivers
 DriversNoteTextBox=Note: Les drivers doivent être au format {0}.
-LocalDrvPkgRadioBtn=Use a package stored on your computer
-ServerDrvPkgRadioBtn=Use the latest package available on the server
+LocalDrvPkgRadioBtn=Utilisez un package stocké sur votre ordinateur
+ServerDrvPkgRadioBtn=Utilisez le dernier package disponible sur le serveur
 MessageBox.LicenseNotAccepted.Heading=Vous n'avez pas accepté l'un des contrats de licence !
-MessageBox.LicenseNotAccepted.Message=All licenses must be accepted to use this drivers package.
+MessageBox.LicenseNotAccepted.Message=Toutes les licences doivent être acceptées pour utiliser ce package de pilotes.
 
 [SelectUEFIPage]
 PageTitle=Firmware UEFI
 SelectUEFILabel=Sélectionner le firmware UEFI
 UEFINoteTextBox=Note: le firmware UEFI doit avoir cette extension de fichier: {0}
-LocalUEFIRadioBtn=Use a firmware stored on your computer
-ServerUEFIRadioBtn=Use the latest firmware available on the server
+LocalUEFIRadioBtn=Utilisez un firmware stocké sur votre ordinateur
+ServerUEFIRadioBtn=Utilisez le dernier firmware disponible sur le serveur
 
 [SetupConfigurationPage]
 PageTitle=Configuration
@@ -123,15 +123,15 @@ PartSchemeLabel=Table partition:
 ImgInstallLabel=Installer l'image avec:
 EnableLZXCheck=Activer la compression LZX
 BootOptionsGroup=Options du boot
-MessageBox.BootConfigEditorWarn=Modifying the default boot configuration may cause the device to malfunction or not boot at all.{n}{n}Continue anyway?
-ConfigurationTabControl.AdvancedTabPage=Advanced
-MessageBox.AdvancedTabPageWarn=Changing the default settings in the advanced menu may disable specific device features or prevent the system from booting.{n}{n}Are you sure you want to continue?
-WindowsBootOptionsGroup=Windows boot options
-MemoryLimitLabel=Memory limit:
-RecoveryEnabledCheck=Enable the Windows Recovery Environment
+MessageBox.BootConfigEditorWarn=La modification de la configuration de démarrage par défaut peut entraîner un dysfonctionnement du périphérique ou ne pas démarrer du tout. {N} {n} Continuer quand même?
+ConfigurationTabControl.AdvancedTabPage=Avancé
+MessageBox.AdvancedTabPageWarn=La modification des paramètres par défaut dans le menu avancé peut désactiver des fonctionnalités spécifiques de l'appareil ou empêcher le système de démarrer. {N} {n} Voulez-vous vraiment continuer?
+WindowsBootOptionsGroup=Options de démarrage de Windows
+MemoryLimitLabel=Limite de mémoire:
+RecoveryEnabledCheck=Activer l'environnement de récupération Windows
 WoROptionsGroup=Option {appname}
 SaveConfigOnExitCheck=Sauvegarder cette configuration en quittant
-SaveConfigOnExitCheckInfoLabel=Note: options that are disabled (and those in the {0} menu) will not be saved.
+SaveConfigOnExitCheckInfoLabel=Remarque: les options désactivées (et celles du menu {0}) ne seront pas enregistrées.
 
 [SetupOverviewPage]
 PageTitle=Installation
@@ -149,7 +149,7 @@ LZXCompression.NO=NON
 [SetupProgressPage]
 PageTitle=Installation
 InstallInfoBox=Ce processus peut prendre beaucoup de temps en fonction des performances de votre appareil.
-TryAgainBtn=Try again
+TryAgainBtn=Réessayer
 InstallStatusLabel.GettingReady=Préparation...
 InstallStatusLabel.FormattingDisk=Formatage du lecteur sélectionné...
 InstallStatusLabel.CreatingPartitions=Création des partitions...
